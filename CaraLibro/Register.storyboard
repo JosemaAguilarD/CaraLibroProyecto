@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Register View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RegisterNavigationController" id="Y6W-OH-hqX" customClass="RegisterViewController" customModule="CaraLibro" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -82,30 +82,35 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BNG-Uc-zzF">
-                                <rect key="frame" x="226" y="788" width="100" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="psT-hH-Oxp"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Iniciar Sesión">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pSF-1f-OuU">
                                 <rect key="frame" x="100" y="545" width="214" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="jD1-Al-fOU"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FeN-0O-lEF">
+                                <rect key="frame" x="228" y="793" width="99" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="fK7-2F-IEr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Iniciar Sesión">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fvx-1J-Two">
+                                <rect key="frame" x="254" y="507" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" red="0.027450980392156862" green="0.054901960784313725" blue="0.10588235294117647" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="kgi-nG-byt" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="25" id="9k7-7F-1Tf"/>
+                            <constraint firstItem="FeN-0O-lEF" firstAttribute="leading" secondItem="cWD-CP-txh" secondAttribute="trailing" constant="5" id="9pV-sR-3S1"/>
                             <constraint firstItem="c8N-Lu-AyB" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="CPK-Nd-wZL"/>
                             <constraint firstItem="kgi-nG-byt" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="D12-aZ-lws"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="BNG-Uc-zzF" secondAttribute="bottom" constant="44" id="Dju-8p-rn0"/>
                             <constraint firstItem="cWD-CP-txh" firstAttribute="top" secondItem="3jI-qy-1SI" secondAttribute="bottom" constant="20" id="GIJ-ft-IMK"/>
                             <constraint firstItem="ryw-CP-uWY" firstAttribute="top" secondItem="kgi-nG-byt" secondAttribute="bottom" constant="62" id="Gcn-ii-DSy"/>
                             <constraint firstItem="cWD-CP-txh" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="86" id="L4o-Eq-o46"/>
@@ -114,15 +119,13 @@
                             <constraint firstItem="bkA-vr-Ycx" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="PT2-nI-PZn"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="c8N-Lu-AyB" secondAttribute="trailing" constant="30" id="RLE-Cq-FQl"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="ryw-CP-uWY" secondAttribute="trailing" constant="30" id="RRT-EU-rw7"/>
+                            <constraint firstItem="FeN-0O-lEF" firstAttribute="top" secondItem="3jI-qy-1SI" secondAttribute="bottom" constant="20" id="Sdf-3t-rdA"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="pSF-1f-OuU" secondAttribute="trailing" constant="100" id="Siz-Wj-cMn"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="BNG-Uc-zzF" secondAttribute="trailing" constant="88" id="T5U-O8-43V"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="3jI-qy-1SI" secondAttribute="trailing" constant="30" id="VZQ-c3-8yt"/>
-                            <constraint firstItem="BNG-Uc-zzF" firstAttribute="top" secondItem="3jI-qy-1SI" secondAttribute="bottom" constant="15" id="bYc-i0-dGE"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="bkA-vr-Ycx" secondAttribute="trailing" constant="30" id="bZo-lq-nk8"/>
                             <constraint firstItem="bkA-vr-Ycx" firstAttribute="top" secondItem="c8N-Lu-AyB" secondAttribute="bottom" constant="35" id="dYF-7V-cwb"/>
                             <constraint firstItem="pSF-1f-OuU" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="100" id="e0r-sb-qDe"/>
                             <constraint firstItem="0vx-aM-WTt" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="elX-ku-qay"/>
-                            <constraint firstItem="BNG-Uc-zzF" firstAttribute="leading" secondItem="cWD-CP-txh" secondAttribute="trailing" constant="3" id="jaS-C0-exX"/>
                             <constraint firstItem="c8N-Lu-AyB" firstAttribute="top" secondItem="ryw-CP-uWY" secondAttribute="bottom" constant="35" id="kaS-Qp-nJg"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="c8N-Lu-AyB" secondAttribute="trailing" constant="30" id="lsG-Wt-sSp"/>
                             <constraint firstItem="3jI-qy-1SI" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="lvX-af-Vco"/>
@@ -132,10 +135,26 @@
                             <constraint firstItem="3jI-qy-1SI" firstAttribute="top" secondItem="pSF-1f-OuU" secondAttribute="bottom" constant="30" id="zLP-Ee-WKD"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="CorreoText" destination="bkA-vr-Ycx" id="J4U-Hi-wL1"/>
+                        <outlet property="IniciarSesion" destination="FeN-0O-lEF" id="iZ0-kb-wIe"/>
+                        <outlet property="apellidosText" destination="c8N-Lu-AyB" id="LDP-KI-IeB"/>
+                        <outlet property="contrasenaText" destination="0vx-aM-WTt" id="kXI-dn-OXD"/>
+                        <outlet property="enviarButton" destination="fvx-1J-Two" id="z2i-3s-fXs"/>
+                        <outlet property="nombreText" destination="ryw-CP-uWY" id="CcL-Jn-MMV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="140.57971014492756" y="50.892857142857139"/>
+        </scene>
+        <!--Login-->
+        <scene sceneID="oGe-2L-xEc">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Login" id="XsP-Tk-LWQ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I9s-1h-XHr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="778" y="-26"/>
         </scene>
     </scenes>
 </document>
