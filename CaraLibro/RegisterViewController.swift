@@ -10,7 +10,9 @@ import SwiftUI
 
 class RegisterViewController:UIViewController {
 
-    
+    @IBAction private func tap_Action(sender:UITapGestureRecognizer) {
+            self.view.endEditing(true)
+    }
     @IBOutlet weak var nombreText: UITextField!
     
     @IBOutlet weak var apellidosText: UITextField!

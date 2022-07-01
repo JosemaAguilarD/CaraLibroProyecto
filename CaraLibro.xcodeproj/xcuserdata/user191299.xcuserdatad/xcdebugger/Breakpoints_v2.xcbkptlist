@@ -3,4 +3,130 @@
    uuid = "8576C21A-F2A6-439E-BA2C-E19F0E4D53D6"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9497B72F-98C8-4151-AE2C-5B192DD8339A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CaraLibro/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "LoginViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "9497B72F-98C8-4151-AE2C-5B192DD8339A - f9bc4ba8e6b4a6a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CaraLibro.LoginViewController.botonLogueo.getter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "CaraLibro"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user191299/Desktop/practica/CaralibroProyecto/CaraLibro/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "9497B72F-98C8-4151-AE2C-5B192DD8339A - a2889a888c247697"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CaraLibro.LoginViewController.botonLogueo.setter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "CaraLibro"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user191299/Desktop/practica/CaralibroProyecto/CaraLibro/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "9497B72F-98C8-4151-AE2C-5B192DD8339A - 39ff33ec0e9d8f9c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CaraLibro.LoginViewController.botonLogueo.modify : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "CaraLibro"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user191299/Desktop/practica/CaralibroProyecto/CaraLibro/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "59">
+               </Location>
+               <Location
+                  uuid = "9497B72F-98C8-4151-AE2C-5B192DD8339A - 433de511cb2d9031"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CaraLibro.LoginViewController.botonLogueo.modify : Swift.Optional&lt;__C.UIButton&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "CaraLibro"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user191299/Desktop/practica/CaralibroProyecto/CaraLibro/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "9497B72F-98C8-4151-AE2C-5B192DD8339A - d749c9f2a33d466b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CaraLibro.LoginViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; CaraLibro.LoginViewController"
+                  moduleName = "CaraLibro"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user191299/Desktop/practica/CaralibroProyecto/CaraLibro/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "456">
+               </Location>
+               <Location
+                  uuid = "9497B72F-98C8-4151-AE2C-5B192DD8339A - 3950f56d84eda617"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CaraLibro.LoginViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CaraLibro.LoginViewController&gt;"
+                  moduleName = "CaraLibro"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user191299/Desktop/practica/CaralibroProyecto/CaraLibro/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "367">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ABA81067-BD4A-4D5E-A003-BF93A6CCEFD6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CaraLibro/RecoverPasswordViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "RecoverPasswordViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
