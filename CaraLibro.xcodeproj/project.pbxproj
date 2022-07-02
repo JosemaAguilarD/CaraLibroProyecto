@@ -23,6 +23,9 @@
 		B8E76F1A2864063A00141CE7 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E76F192864063A00141CE7 /* Register.storyboard */; };
 		B8E76F1E28640A2F00141CE7 /* RecoverPassword.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E76F1D28640A2F00141CE7 /* RecoverPassword.storyboard */; };
 		B8F900FE28641DA000058A40 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F900FD28641DA000058A40 /* LoginViewController.swift */; };
+		CA01572128702BA5002877A7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA01572028702BA5002877A7 /* GoogleService-Info.plist */; };
+		CA01572428703621002877A7 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CA01572328703621002877A7 /* FirebaseAnalytics */; };
+		CA01572628703621002877A7 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = CA01572528703621002877A7 /* FirebaseAnalyticsWithoutAdIdSupport */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,7 @@
 		B8E76F192864063A00141CE7 /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
 		B8E76F1D28640A2F00141CE7 /* RecoverPassword.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RecoverPassword.storyboard; sourceTree = "<group>"; };
 		B8F900FD28641DA000058A40 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CA01572028702BA5002877A7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,8 +52,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8A5BA962864763700652CA0 /* FirebaseStorage in Frameworks */,
+				CA01572628703621002877A7 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 				B8A5BA982864763700652CA0 /* FirebaseAuth in Frameworks */,
 				B8A5BA9C2864763700652CA0 /* FirebaseDatabase in Frameworks */,
+				CA01572428703621002877A7 /* FirebaseAnalytics in Frameworks */,
 				B8A5BA9A2864763700652CA0 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -89,6 +95,7 @@
 				B8F900FD28641DA000058A40 /* LoginViewController.swift */,
 				B89955E42869AB40003939A3 /* RegisterViewController.swift */,
 				B8137F50286F112F00FC6109 /* RecoverPasswordViewController.swift */,
+				CA01572028702BA5002877A7 /* GoogleService-Info.plist */,
 			);
 			path = CaraLibro;
 			sourceTree = "<group>";
@@ -114,6 +121,8 @@
 				B8A5BA972864763700652CA0 /* FirebaseAuth */,
 				B8A5BA992864763700652CA0 /* FirebaseFirestore */,
 				B8A5BA9B2864763700652CA0 /* FirebaseDatabase */,
+				CA01572328703621002877A7 /* FirebaseAnalytics */,
+				CA01572528703621002877A7 /* FirebaseAnalyticsWithoutAdIdSupport */,
 			);
 			productName = CaraLibro;
 			productReference = B8E76EFA2864041100141CE7 /* CaraLibro.app */;
@@ -144,6 +153,7 @@
 			mainGroup = B8E76EF12864041100141CE7;
 			packageReferences = (
 				B8A5BA942864763700652CA0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				CA01572228703621002877A7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = B8E76EFB2864041100141CE7 /* Products */;
 			projectDirPath = "";
@@ -165,6 +175,7 @@
 				B8E76F072864041200141CE7 /* Assets.xcassets in Resources */,
 				B8E76F052864041100141CE7 /* Main.storyboard in Resources */,
 				B8E76F1A2864063A00141CE7 /* Register.storyboard in Resources */,
+				CA01572128702BA5002877A7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +401,14 @@
 				minimumVersion = 9.2.0;
 			};
 		};
+		CA01572228703621002877A7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -412,6 +431,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = B8A5BA942864763700652CA0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseDatabase;
+		};
+		CA01572328703621002877A7 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA01572228703621002877A7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		CA01572528703621002877A7 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA01572228703621002877A7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
