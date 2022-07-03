@@ -4,7 +4,6 @@
 //
 //  Created by user191299 on 6/22/22.
 //
-import SwiftUI
 import UIKit
 import FirebaseCore
 
@@ -18,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         return true
     }
-
+  
     
     
     // MARK: UISceneSession Lifecycle
