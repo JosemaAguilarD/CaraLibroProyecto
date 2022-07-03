@@ -25,7 +25,7 @@ class LoginViewController: UIViewController{
                 
                 if let result = result, error == nil{
                 
-                    let alertController = UIAlertController(title: "Logueado", message: "Se ha ddlogueado correctamente", preferredStyle: .alert)
+                    let alertController = UIAlertController(title: "Logueado", message: "Se ha logueado correctamente", preferredStyle: .alert)
                     alertController.addAction(UIAlertAction(title: "Aceptar", style: .default))
                     self.present(alertController, animated: true, completion: nil)
                 }else{
