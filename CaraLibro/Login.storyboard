@@ -75,7 +75,7 @@
                                     <segue destination="3dJ-fH-2j5" kind="presentation" id="vyr-Tr-MUb"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ei3-58-3Co" customClass="txtEmail">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ei3-58-3Co">
                                 <rect key="frame" x="54.5" y="363" width="305" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="305" id="azL-cV-ZA9"/>
@@ -101,6 +101,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <connections>
+                                    <action selector="LoginButtonAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Oto-8Z-dRx"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
@@ -130,6 +133,11 @@
                             <outletCollection property="gestureRecognizers" destination="RXu-2R-wMV" appends="YES" id="t95-DS-X3M"/>
                         </connections>
                     </view>
+                    <connections>
+                        <outlet property="contrasenaTextField" destination="prq-KJ-Mt5" id="Koy-n6-Q30"/>
+                        <outlet property="emailTextField" destination="Ei3-58-3Co" id="MvH-k2-Pvn"/>
+                        <outlet property="loginButton" destination="SEC-j5-m9o" id="d7Z-Pq-I98"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="LCy-eI-aEO" userLabel="Exit" sceneMemberID="exit"/>
