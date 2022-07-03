@@ -2,18 +2,18 @@
 //  LoginViewController.swift
 //  CaraLibro
 //
-//  Created by user191299 on 6/23/22.
-//
+//  Created by user19129
 import SwiftUI
 import UIKit
 import FirebaseAuth
-
 class LoginViewController: UIViewController{
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    
     @IBAction private func tap_Action(sender:UITapGestureRecognizer) {
             self.view.endEditing(true)
     }
     
-    enum ProviderType: String {
+  /*  enum ProviderType: String {
            case basic
        }
        
@@ -24,22 +24,23 @@ class LoginViewController: UIViewController{
     override func viewDidLoad() {
              super.viewDidLoad()
          }
+   */
          
-         @IBAction func logearActionButon(_ sender: Any) {
-             if let apellido = apellidoText.text, let nombre = nombreText.text{
-                 Auth.auth().createUser(withEmail: apellido, password: nombre){
-                     (result, error) in
-                     if let result = result, error == nil{
-                         print("todo bien")
-                     } else {
-                         let alertController = UIAlertController(title:"Error", message: "Se ha producido un error", preferredStyle: .alert); alertController.addAction(UIAlertAction(title: "Aceptar", style: .default))
-                         self.present(alertController, animated: true, completion: nil)
-                     }
-                 }
-             }
+      //   @IBAction func logearActionButon(_ sender: Any) {
+        //     if let apellido = apellidoText.text, let nombre = nombreText.text{
+          //       Auth.auth().createUser(withEmail: apellido, password: nombre){
+            //         (result, error) in
+              //       if let result = result, error == nil{
+                //         print("todo bien")
+                  //   } else {
+                      //   let alertController = UIAlertController(title:"Error", message: "Se ha producido un error", preferredStyle: .alert); alertController.addAction(UIAlertAction(title: "Aceptar", style: .default))
+                       //  self.present(alertController, animated: true, completion: nil)
+                //     }
+                // }
+            // }
              
-         }
-         enum AuthenticationSheetView: String, Identifiable{
+        // }
+       /*  enum AuthenticationSheetView: String, Identifiable{
              case register
              case login
              
@@ -47,6 +48,7 @@ class LoginViewController: UIViewController{
              var id: String{
                  return rawValue
              }
+*/
+}
+//}
 
-}
-}
