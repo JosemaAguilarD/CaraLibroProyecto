@@ -35,6 +35,8 @@ class LoginViewController: UIViewController{
                 }
             }
         }
+        emailTextField.text = ""
+        contrasenaTextField.text = ""
     }
     
     override func viewDidLoad() {
